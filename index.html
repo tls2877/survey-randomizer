@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>설문조사</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>설문지로 이동 중입니다.</h2>
+<p>잠시만 기다려 주세요.</p>
+
+<script>
+setTimeout(function() {
+    if (Math.random() < 0.5) {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf0jwA74iuIdCHETvCvQ1Wkoo0ItcoBP0tiFJkSDva70ro4eg/viewform?usp=dialog";
+    } else {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSej0BZZXUGnPZQe0KTJUfLXm1B5d1PKwsfthpxswMHKfqhtvw/viewform?usp=header";
+    }
+}, 1000);
+</script>
+
+</body>
+</html>
